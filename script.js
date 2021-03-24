@@ -10,13 +10,19 @@ var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.5;
 var guessCounter = 0;
+var attempts = 3;
+var attemptsDisplayString = "Attempts: ";
 
 function startGame() {
   //initialize game variables
   progress = 0;
+  attempts = 3;
+  document.getElementById("attemptsDisplay").innerText = attemptsDisplayString + attempts;
   gamePlaying = true;
+  randomizePattern();
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
+  document.getElementById("attemptsDisplay").classList.remove("hidden");
   playClueSequence();
 }
 
@@ -25,6 +31,7 @@ function stopGame() {
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
+  document.getElementById("attemptsDisplay").classList.add("hidden");
 }
 
 function lightButton(btn) {
@@ -72,8 +79,13 @@ function guess(btn) {
       guessCounter++;
     }
   } else {//if player guesses wrong
-    loseGame();
-    return;
+    decrementAttempts();
+    if (attempts == 0){
+      loseGame();
+      return;
+    }else{
+      playClueSequence();
+    }
   }
 }
 
@@ -84,7 +96,19 @@ function winGame() {
 
 function loseGame() {
   stopGame();
-  alert("Game Over. You lost.");
+  alert("You've run out of attempts! Game over.");
+}
+
+function randomizePattern(){
+  for (let i = 0; i <= pattern.length-1; i++){
+    console.log("randomize: " + i + "th entry of pattern");
+    pattern[i] = Math.floor((Math.random() * 4) + 1);
+  }
+}
+
+function decrementAttempts(){
+  attempts--;
+  document.getElementById("attemptsDisplay").innerText = attemptsDisplayString + attempts;
 }
 
 // Sound Synthesis Functions
