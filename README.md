@@ -44,7 +44,10 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+      https://www.w3schools.com/jsref/jsref_length_array.asp - Used to refresh use of the length property of an array in javascript.
+      
+      https://www.color-hex.com/ - Used to get hex codes for custom colors.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
