@@ -52,6 +52,8 @@ Here's a walkthrough of implemented user stories:
       https://www.w3schools.com/jsref/jsref_random.asp - Used for the random() function in pattern randomizer.
       
       https://www.codespeedy.com/fixed-div-element-position-to-the-top-right-in-css/ - Used to place fixed display of attempts in top right corner.
+      
+      https://www.w3schools.com/jsref/prop_node_innertext.asp - Used to dynamically adjust attempts display.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 

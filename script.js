@@ -11,7 +11,7 @@ var tonePlaying = false;
 var volume = 0.5;
 var guessCounter = 0;
 var attempts = 3;
-var attemptsDisplayString = "Attempts: ";
+var attemptsDisplayString = "Attempts Remaining: ";
 
 function startGame() {
   //initialize game variables
