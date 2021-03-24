@@ -22,11 +22,11 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
 * [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
 * [ ] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [X] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -48,6 +48,10 @@ Here's a walkthrough of implemented user stories:
       https://www.w3schools.com/jsref/jsref_length_array.asp - Used to refresh use of the length property of an array in javascript.
       
       https://www.color-hex.com/ - Used to get hex codes for custom colors.
+      
+      https://www.w3schools.com/jsref/jsref_random.asp - Used for the random() function in pattern randomizer.
+      
+      https://www.codespeedy.com/fixed-div-element-position-to-the-top-right-in-css/ - Used to place fixed display of attempts in top right corner.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
