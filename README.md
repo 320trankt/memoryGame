@@ -4,7 +4,7 @@
 
 Submitted by: **Kevin Tran**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/well-abaft-budget
 
@@ -23,18 +23,18 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
+* [X] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [X] More than 4 functional game buttons
 * [ ] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] Live display of attempts remaining per run.
 
 ## Video Walkthrough
 
@@ -54,6 +54,8 @@ Here's a walkthrough of implemented user stories:
       https://www.codespeedy.com/fixed-div-element-position-to-the-top-right-in-css/ - Used to place fixed display of attempts in top right corner.
       
       https://www.w3schools.com/jsref/prop_node_innertext.asp - Used to dynamically adjust attempts display.
+      
+      https://pages.mtu.edu/~suits/notefreqs.html - Used to choose note frequencies.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 

@@ -18,8 +18,8 @@ button {
 }
 
 #gameButtonArea > button{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 2px;
 }
 
@@ -53,6 +53,30 @@ button {
 
 #button4:active, #button4.lit{
   background: #011efe;
+}
+
+#button5 {
+  background: #34005b;
+}
+
+#button5:active, #button5.lit{
+  background:#4b0082;
+}
+
+#button6 {
+  background: #a65ba6;
+}
+
+#button6:active, #button6.lit{
+  background:#ee82ee;
+}
+
+#button7 {
+  background: #b25353;
+}
+
+#button7:active, #button7.lit{
+  background:#ff7777;
 }
 
 #attemptsDisplay{
