@@ -102,21 +102,25 @@ function loseGame() {
 function randomizePattern(){
   for (let i = 0; i <= pattern.length-1; i++){
     console.log("randomize: " + i + "th entry of pattern");
-    pattern[i] = Math.floor((Math.random() * 4) + 1);
+    pattern[i] = Math.floor((Math.random() * 7) + 1);
   }
 }
 
 function decrementAttempts(){
   attempts--;
+  console.log("attempts = " + attempts);
   document.getElementById("attemptsDisplay").innerText = attemptsDisplayString + attempts;
 }
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 523.25
+  1: 130.81,
+  2: 164.81,
+  3: 196.00,
+  4: 261.63,
+  5: 329.63,
+  6: 392.00,
+  7: 523.25,
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
